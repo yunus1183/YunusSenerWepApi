@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <UserSecretsId>0362fcb9-8a54-438a-a200-a092669f49ee</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
     <ProjectReference Include="..\Entities\Entities.csproj" />
   </ItemGroup>
 

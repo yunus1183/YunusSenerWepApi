@@ -1717,6 +1717,20 @@
           "bin/placeholder/Core.dll": {}
         }
       },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -6182,6 +6196,11 @@
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
     },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -6192,6 +6211,7 @@
     ".NETStandard,Version=v2.0": [
       "Autofac >= 5.2.0",
       "Core >= 1.0.0",
+      "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -6228,6 +6248,9 @@
           "projectReferences": {
             "C:\\Users\\yunus\\Desktop\\YunusSenerWebApi\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\yunus\\Desktop\\YunusSenerWebApi\\Core\\Core.csproj"
+            },
+            "C:\\Users\\yunus\\Desktop\\YunusSenerWebApi\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\yunus\\Desktop\\YunusSenerWebApi\\DataAccess\\DataAccess.csproj"
             },
             "C:\\Users\\yunus\\Desktop\\YunusSenerWebApi\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\yunus\\Desktop\\YunusSenerWebApi\\Entities\\Entities.csproj"

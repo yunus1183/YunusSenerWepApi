@@ -12,3 +12,5 @@ C:\Users\yunus\Desktop\YunusSenerWebApi\Business\bin\Debug\netstandard2.0\Core.p
 C:\Users\yunus\Desktop\YunusSenerWebApi\Business\bin\Debug\netstandard2.0\Entities.pdb
 C:\Users\yunus\Desktop\YunusSenerWebApi\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\yunus\Desktop\YunusSenerWebApi\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\yunus\Desktop\YunusSenerWebApi\Business\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\yunus\Desktop\YunusSenerWebApi\Business\bin\Debug\netstandard2.0\DataAccess.pdb
